@@ -1,0 +1,121 @@
+// Header Base
+
+.app-header {
+  height: $app-header-height;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  z-index: 10;
+  transition: all 0.2s;
+
+  &.header-shadow {
+    box-shadow: $box-shadow-default;
+  }
+
+  .app-header__content {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex: 1;
+    padding: 0 $layout-spacer-x;
+    height: $app-header-height;
+
+    .app-header-left {
+      display: flex;
+      align-items: center;
+    }
+
+    .app-header-right {
+      align-items: center;
+      display: flex;
+      margin-left: auto;
+    }
+  }
+
+  .header-user-info {
+
+    &>.widget-heading,
+    &>.widget-subheading {
+      white-space: nowrap;
+    }
+
+    &>.widget-subheading {
+      font-size: $font-size-xs;
+    }
+  }
+}
+
+.app-header__logo {
+  // padding: 0 $layout-spacer-x;
+  padding: 0 0.4rem;
+  height: $app-header-height;
+  width: $app-sidebar-width;
+  display: flex;
+  align-items: center;
+  transition: width 0.2s;
+
+  .logo-src {
+    height: $logo-height;
+    width: $logo-width;
+    background: url('../../../assets/utils/images/logo-inverse.png');
+  }
+}
+
+.app-header__menu,
+.app-header__mobile-menu {
+  display: none;
+  padding: 0 $layout-spacer-x;
+  height: $app-header-height;
+  align-items: center;
+}
+
+.logoTxt {
+  transition: 0.3s;
+  margin-left: 0px;
+}
+
+.closed-sidebar .logoTxt {
+  // margin-left: 15px;
+}
+
+.closed-sidebar .logoTxt h1 {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+
+}
+
+.closed-sidebar .logoTxt img {
+  margin-right: 0px;
+}
+
+.logoTxtRight {
+  transition: 0.3s;
+  margin-left: 0px;
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+
+.closed-sidebar .logoTxtRight {
+  transition: 0.3s;
+  margin-left: 15px;
+  position: relative;
+  height: auto;
+  overflow: inherit;
+}
+
+// Header Modifiers
+
+@import 'modifiers/fixed-header';
+@import 'modifiers/header-dots';
+@import 'modifiers/header-megamenu';
+@import 'modifiers/header-buttons';
+//@import "modifiers/header-horizontal";
+
+// Header Themes
+
+@import 'themes/header-light';
+@import 'themes/header-dark';
+//@import "themes/header-inverted";

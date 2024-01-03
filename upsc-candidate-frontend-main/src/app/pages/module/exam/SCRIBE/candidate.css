@@ -1,0 +1,29 @@
+/* custom.css */
+.custom-table {
+  border: 1px solid #000000;
+  border-collapse: collapse; /* Collapse border spacing */
+  border-top: none;
+  margin-bottom: 0px;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #000;
+  padding: 8px;
+}
+.column-1 {
+  width: 30%;
+  font-size: 17px;
+}
+
+.column-2 {
+  width: 40%;
+  font-size: 17px;
+}
+
+.row-no-padding {
+  [class*='col-'] {
+    padding-left: 0.9% !important;
+    padding-right: 0 !important;
+  }
+}

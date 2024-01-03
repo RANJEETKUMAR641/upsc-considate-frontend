@@ -1,0 +1,43 @@
+[
+  {
+    "icon": "fa fa-desktop",
+    "label": "Dashboard",
+    "to": "#"
+  },
+  {
+    "icon": "fa fa-address-card",
+    "label": "Profile",
+    "content": [
+      {
+        "label": "Registration",
+        "to": "/dashboards/otrview"
+      },
+      {
+        "label": "Detail Profile",
+        "to": "/dashboards/candidate_daf"
+      },
+      {
+        "label": "Community",
+        "to": "/dashboards/candidate_community"
+      },
+      {
+        "label": "Physical Disability",
+        "to": "/dashboards/candidate_ph"
+      },
+      {
+        "label": "Contact Details",
+        "to": "/dashboards/candidate_contact"
+      }
+    ]
+  },
+  {
+    "icon": "fa fa-user-graduate",
+    "label": "Qualification",
+    "to": "/dashboards/candidate_qualification"
+  },
+  {
+    "icon": "fa fa-briefcase",
+    "label": "Experiance",
+    "to": "/dashboards/candidate_experiance"
+  }
+]

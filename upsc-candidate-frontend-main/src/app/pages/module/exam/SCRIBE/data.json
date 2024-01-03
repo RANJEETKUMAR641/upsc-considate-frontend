@@ -1,0 +1,69 @@
+[
+  {
+    "message": [
+      "आपको सिविल सेवा (मुख्य) परीक्षा, 2023 के  लिए प्रवेश दिया गया है |",
+      "You are admitted to the Civil Services (Main) Examination, 2023"
+    ],
+    "dateOfExamination": [
+      "15 सितंबर से 24 सितंबर, 2023",
+      "15th September to 24th September, 2023"
+    ],
+    "candidate": {
+      "name": "MADUGOLU ANIL KUMAR",
+      "rollNo": "105417",
+
+      "centre": "HYDERABAD",
+      "disabilityCategory": "LOCOMOTOR DISABILITY ETC",
+      "writingLimitation": "Yes (Eligible for compensatory time)",
+      "scribeStatus": "OWN SCRIBE"
+    },
+
+    "mediumOfExam": {
+      "p1-5": "ENGLISH",
+      "p6-7": "ENGLISH"
+    },
+    "scribe": {
+      "name": "GANTEPANGU RAJKUMAR",
+      "address": "H NO C-773 SRIVIDHYA NAGAR, KODAD-508206",
+      "exams": "PAPER-A (INDIAN LANGUAGE), PAPER-B (ENGLISH), PAPER-I (ESSAY), PAPER-II (GENERAL STUDIES - I),PAPER-III(GENERAL STUDIES - II), PAPER-IV (GENERAL STUDIES - III), PAPER-V (GENERAL STUDIES - IV), PAPER-VI (OPTIONAL PAPAER - 1),PAPER-VII (OPTIONAL PAPAER - 2)"
+    },
+
+    "timetableData": [
+      {
+        "id": 1,
+        "date": "15-09-2023",
+        "forenoonSubjectCode": "Essay (98) P-I",
+        "afternoonSubjectCode": "No Paper in this Session",
+        "venue": "(002) EXAMINATION HALL, 2ND FLOOR, EXAMINATION HALL BUILDING, UNION PUBLIC SERVICE COMMISSION, DHOLPUR HOUSE, SHAHJAHAN ROAD, NEW DELHI-110069"
+      },
+      {
+        "id": 2,
+        "date": "16-09-2023",
+        "forenoonSubjectCode": "General Studies-I (99) P-II",
+        "afternoonSubjectCode": "General Studies-II (99) P-III",
+        "venue": "(002) EXAMINATION HALL, 2ND FLOOR, EXAMINATION HALL BUILDING, UNION PUBLIC SERVICE COMMISSION, DHOLPUR HOUSE, SHAHJAHAN ROAD, NEW DELHI-110069"
+      },
+      {
+        "id": 3,
+        "date": "17-09-2023",
+        "forenoonSubjectCode": "General Studies-III (99) P-IV",
+        "afternoonSubjectCode": "General Studies-IV (99) P-V",
+        "venue": "(002) EXAMINATION HALL, 2ND FLOOR, EXAMINATION HALL BUILDING, UNION PUBLIC SERVICE COMMISSION, DHOLPUR HOUSE, SHAHJAHAN ROAD, NEW DELHI-110069"
+      },
+      {
+        "id": 4,
+        "date": "23-09-2023",
+        "forenoonSubjectCode": "Hindi (04) [I L ] P-A",
+        "afternoonSubjectCode": "English (20) P-B",
+        "venue": "(002) EXAMINATION HALL, 2ND FLOOR, EXAMINATION HALL BUILDING, UNION PUBLIC SERVICE COMMISSION, DHOLPUR HOUSE, SHAHJAHAN ROAD, NEW DELHI-110069"
+      },
+      {
+        "id": 5,
+        "date": "24-09-2023",
+        "forenoonSubjectCode": "Pol. Sc. & Intrel-I (37) P-VI",
+        "afternoonSubjectCode": "Pol. Sc. & Intrel-I (37) P-VII",
+        "venue": "(002) EXAMINATION HALL, 2ND FLOOR, EXAMINATION HALL BUILDING, UNION PUBLIC SERVICE COMMISSION, DHOLPUR HOUSE, SHAHJAHAN ROAD, NEW DELHI-110069"
+      }
+    ]
+  }
+]

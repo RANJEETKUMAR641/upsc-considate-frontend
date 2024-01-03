@@ -1,0 +1,51 @@
+{
+  "module": "gatepass",
+  "menu": [
+    {
+      "icon": "fa fa-home",
+      "label": "Dashboard",
+      "to": "/dashboards/"
+    },
+    {
+      "icon": "fa fa-sign-in",
+      "label": "Gate Pass",
+      "content": [
+        {
+          "label": "Create Gate Pass",
+          "to": "/dashboards/dailypass",
+          "component": "dailypass"
+        },
+        {
+          "label": "Monthly Pass",
+          "to": "/dashboards/monthlypass",
+          "component": "monthlypass"
+        },
+        {
+          "label": "Periodic Pass",
+          "to": "/dashboards/periodicpass",
+          "component": "periodicpass"
+        },
+        {
+          "label": "Officers",
+          "to": "/dashboards/officers",
+          "component": "officer"
+        },
+        {
+          "label": "Authorities",
+          "to": "/dashboards/authorities",
+          "component": "authorities"
+        },
+        {
+          "label": "Testing",
+          "to": "/dashboards/testing",
+          "component": "testing"
+        },
+        {
+          "label": "Testing1",
+          "to": "/dashboards/test1",
+          "component": "test1"
+        }
+      ]
+    }
+  ]
+}

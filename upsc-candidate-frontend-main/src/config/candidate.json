@@ -1,0 +1,161 @@
+{
+  "module": "candidate",
+  "menu": [
+    {
+      "icon": "fa fa-database",
+      "label": "Dashboards",
+      "content": [
+        {
+          "icon": "fa fa-gears",
+          "label": "Main",
+          "to": "/dashboards/main",
+          "component": "dashboard"
+        },
+        {
+          "icon": "fa fa-gears",
+          "label": "Candidate Application",
+          "to": "/dashboards/application",
+          "component": "candidate_application"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-address-card",
+      "label": "Profile",
+      "content": [
+        {
+          "label": "Registration",
+          "to": "/dashboards/otrview",
+          "component": "otrview"
+        },
+        {
+          "label": "Detail Profile",
+          "to": "/dashboards/candidate_daf",
+          "component": "candidate_daf"
+        },
+        {
+          "label": "Contact Information",
+          "to": "/dashboards/candidate_address",
+          "component": "candidate_address"
+        },
+        {
+          "label": "Qualification",
+          "to": "/dashboards/candidate_qualification",
+          "component": "candidate_qualification"
+        },
+        {
+          "label": "Experiance",
+          "to": "/dashboards/candidate_experience",
+          "component": "candidate_experience"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-people-group",
+      "label": "Community",
+      "to": "/dashboards/candidate_community",
+      "component": "candidate_community"
+    },
+    {
+      "icon": "fa fa-wheelchair",
+      "label": "Physically Challenged",
+      "content": [
+        {
+          "label": "Information",
+          "to": "/dashboards/candidate_ph",
+          "component": "candidate_ph"
+        },
+        {
+          "label": "Scribe Information",
+          "to": "/dashboards/candidate_scribe",
+          "component": "candidate_scribe"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-universal-access",
+      "label": "Age Relaxation (Add.)",
+      "content": [
+        {
+          "label": "Ex Service Man",
+          "to": "/dashboards/agerelax_exserviceman",
+          "component": "agerelax_exserviceman",
+          "params": { "agerelax_category": "agerelax_exserviceman" }
+        },
+        {
+          "label": "Govt. Dept",
+          "to": "/dashboards/agerelax_govtdept",
+          "component": "agerelax_govtdept",
+          "params": { "agerelax_category": "agerelax_govtdept" }
+        },
+        {
+          "label": "JK Domicile",
+          "to": "/dashboards/agerelax_jkdomicile",
+          "component": "agerelax_jkdomicile",
+          "params": { "agerelax_category": "agerelax_jkdomicile" }
+        },
+        {
+          "label": "Women",
+          "to": "/dashboards/agerelax",
+          "component": "agerelax_woman"
+        },
+        {
+          "label": "Sports",
+          "to": "/dashboards/agerelax_sports",
+          "component": "agerelax_sports",
+          "params": { "agerelax_category": "agerelax_sports" }
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-database",
+      "label": "Forms",
+      "content": [
+        {
+          "icon": "fa fa-gears",
+          "label": "Custom Forms",
+          "to": "/dashboards/candidate_custom_forms",
+          "component": "candidate_custom_forms"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-sign-in",
+      "label": "DAF 1",
+      "content": [
+        {
+          "label": "Parental Informatiom",
+          "to": "/dashboards/parental-information",
+          "component": "parentalInfo"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-sign-in",
+      "label": "DAF 2",
+      "content": [
+        {
+          "label": "EWS Annexure",
+          "to": "/dashboards/ews-annexure",
+          "component": "ewsannexure"
+        },
+        {
+          "label": "Socio Economic",
+          "to": "/dashboards/socio-economic",
+          "component": "socioeconomic"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-sign-in",
+      "label": "Change request",
+      "content": [
+        {
+          "label": "Change Request",
+          "to": "/dashboards/change_request",
+          "component": "change_request"
+        }
+      ]
+    }
+  ]
+}

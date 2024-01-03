@@ -1,0 +1,66 @@
+/* eslint-disable */
+
+/* .header {
+  text-align:center;
+  font-weight: 600;
+} */
+
+.bottom-section {
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.qr-code {
+  display: flex-start;
+}
+
+.qr-code img {
+  max-width: 100%;
+  height: auto;
+}
+
+.col-no {
+  width: 4%;
+}
+
+.col-instructions {
+  width: 94%;
+}
+
+.row-no-padding {
+  [class*='col-'] {
+    padding-left: 0.9% !important;
+    padding-right: 0 !important;
+  }
+}
+
+.photo {
+  width: 150%;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.font-twenty {
+  font-size: 20px;
+}
+.font-seventeen {
+  font-size: 17px;
+}
+.font-sixteen {
+  font-size: 16px;
+}
+.font-fifteen {
+  font-size: 15px;
+}
+.font-fourteen {
+  font-size: 14px;
+}
+.font-thirteen {
+  font-size: 13px;
+}
+.font-twelve {
+  font-size: 12px;
+}

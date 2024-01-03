@@ -1,0 +1,141 @@
+import { faker } from '@faker-js/faker'
+
+export const Details = [
+  {
+    name_of_examination: 'CIVIL SERVICES (MAIN) EXAMINATION-2020',
+    centre: '08-DELHI',
+    sub_centre: '014',
+    page_id: '08014111482',
+    date: '16/01/2021',
+    time: '9.00 A.M. to 12.00 Noon',
+    subject: '(08) MARATHI',
+    candidateList: [
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time 9',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+      {
+        name: faker.person.firstName(),
+        roll: faker.number.int({ min: 14 }),
+        photo: faker.image.avatarLegacy(),
+        status: 'Eligible for Compensatory Time #',
+      },
+    ],
+  },
+]

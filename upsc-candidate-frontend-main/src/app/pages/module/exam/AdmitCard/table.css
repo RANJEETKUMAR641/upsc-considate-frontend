@@ -1,0 +1,24 @@
+.time-table-font {
+  font-size: 13px;
+}
+.custom-table {
+  border-collapse: collapse;
+  border: 1px solid #000;
+}
+
+.custom-time-table th,
+.custom-time-table td {
+  border: 1px solid #000;
+  padding: 2px;
+}
+
+.row-no-padding {
+  [class*='col-'] {
+    padding-left: 0.9% !important;
+    padding-right: 0 !important;
+  }
+}
+
+.font-sixteen {
+  font-size: 16px;
+}

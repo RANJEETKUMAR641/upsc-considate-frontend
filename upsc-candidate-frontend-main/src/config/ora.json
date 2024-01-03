@@ -1,0 +1,180 @@
+{
+  "module": "ora",
+  "menu": [
+    {
+      "icon": "fa fa-database",
+      "label": "Dashboards",
+      "content": [
+        {
+          "icon": "fa fa-gears",
+          "label": "Main",
+          "to": "/dashboards/main",
+          "component": "dashboard"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "label": "Post Creation",
+      "content": [
+        {
+          "label": "Notice",
+          "to": "/dashboards/post_notices",
+          "component": "post_notices"
+        },
+        {
+          "label": "Post Creation (ORA)",
+          "to": "/dashboards/posts",
+          "component": "posts"
+        },
+        {
+          "label": "Post Creation (SOAP)",
+          "to": "/dashboards/posts_soap",
+          "component": "posts_soap"
+        },
+        {
+          "label": "Post Description",
+          "to": "/dashboards/post_description",
+          "component": "post_description"
+        },
+        {
+          "label": "Post post_qlevel_experience soap",
+          "to": "/dashboards/post_qlevel_experience_soap",
+          "component": "post_qlevel_experience_soap"
+        },
+        {
+          "label": "Post post_qlevel_experience ora",
+          "to": "/dashboards/post_qlevel_experience_ora",
+          "component": "post_qlevel_experience_ora"
+        },
+
+        {
+          "label": "Post Description (SOAP)",
+          "to": "/dashboards/post_description_soap",
+          "component": "post_description_soap"
+        },
+
+        {
+          "label": "Post Modules (ORA)",
+          "to": "/dashboards/post_modules_ora",
+          "component": "post_modules_ora"
+        },
+        {
+          "label": "Post Modules (SOAP)",
+          "to": "/dashboards/post_modules_soap",
+          "component": "post_modules_soap"
+        },
+        {
+          "label": "Post Rules (ORA)",
+          "to": "/dashboards/post_ora_rules",
+          "component": "post_ora_rules"
+        },
+        {
+          "label": "IFC (ORA)",
+          "to": "/dashboards/ifc_preview_ora",
+          "component": "ifc_preview_ora"
+        },
+        {
+          "label": "IFC (SOAP)",
+          "to": "/dashboards/ifc_preview_soap",
+          "component": "ifc_preview_soap"
+        },
+        {
+          "label": "Vacancy (ORA)",
+          "to": "/dashboards/post_vacancy",
+          "component": "post_vacancy"
+        },
+        {
+          "label": "Vacancy (SOAP)",
+          "to": "/dashboards/post_vacancy_soap",
+          "component": "post_vacancy_soap"
+        },
+        {
+          "label": "Post Approval (ORA)",
+          "to": "/dashboards/ora_post_approver",
+          "component": "ora_post_approver"
+        },
+        {
+          "label": "Post Approval (SOAP)",
+          "to": "/dashboards/soap_post_approver",
+          "component": "soap_post_approver"
+        },
+        {
+          "label": "Post Qualification Experience Level",
+          "to": "/dashboards/posts_qlevel_experience",
+          "component": "posts_qlevel_experience"
+        },
+        {
+          "label": "Post Rules",
+          "to": "/dashboards/post_soap_rules",
+          "component": "post_soap_rules"
+        },
+        {
+          "label": "Users",
+          "to": "/dashboards/my_users",
+          "component": "my_users"
+        },
+        {
+          "label": "Group Permissions",
+          "to": "/dashboards/menu_group_permissions",
+          "component": "menu_group_permissions"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-gears",
+      "label": "IFC Preview",
+      "to": "/dashboards/tabs",
+      "component": "ifc_preview"
+    },
+    {
+      "icon": "fa fa-database",
+      "label": "Masters",
+      "content": [
+        {
+          "label": "Basic Masters",
+          "to": "/dashboards/masters_data",
+          "component": "masters_data"
+        },
+        {
+          "label": "Custom Module",
+          "to": "/dashboards/pm_custom",
+          "component": "pm_custom"
+        },
+        {
+          "label": "Custom Module Template",
+          "to": "/dashboards/pm_custom_module_template",
+          "component": "pm_custom_template"
+        },
+        {
+          "label": "Age Relax",
+          "to": "/dashboards/master_agerelax",
+          "component": "master_agerelax"
+        },
+        {
+          "label": "Post Age Relax",
+          "to": "/dashboards/post_agerelax",
+          "component": "post_agerelax"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-database",
+      "label": "Change Request",
+      "content": [
+        {
+          "icon": "fa fa-gears",
+          "label": "Approver",
+          "to": "/dashboards/approver_change_request",
+          "component": "approver_change_request"
+        },
+        {
+          "icon": "fa fa-gears",
+          "label": "Operator",
+          "to": "/dashboards/operator_change_request",
+          "component": "operator_change_request"
+        }
+      ]
+    }
+  ]
+}

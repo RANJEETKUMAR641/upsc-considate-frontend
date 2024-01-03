@@ -1,0 +1,67 @@
+import { FormFeedback, Input as InputRS } from 'reactstrap'
+import { useCallback, memo } from 'react'
+import { Controller } from 'react-hook-form'
+import { isEqual } from 'lodash'
+import { handleOnKeyDown, getPattern } from 'app/Plugins/utils/pluginHelper'
+
+const MyTextArea = memo((props: any) => {
+  const { formState } = props?.fmethods
+
+  const { errors } = formState
+
+  const handleRequired = useCallback(() => {
+    return isEqual(props.required, 1) ? 'Required' : false
+  }, [])
+
+  return (
+    <>
+      <div>
+        <Controller
+          name={props?.field}
+          control={props.control}
+          render={({ field }) => (
+            <InputRS
+              type="textarea"
+              id={props?.title}
+              autoComplete="off"
+              placeholder={props?.placeholder}
+              readOnly={props?.readonly}
+              invalid={Boolean(errors?.[props?.field])}
+              valid={props?.values?.[props?.field]}
+              className={`my-input-${props?.field}`}
+              {...field}
+              {...props?.addattrs}
+              maxLength={props?.addattrs?.maxlength}
+              onKeyDown={(e) => handleOnKeyDown(e, props)}
+              onCopy={(e) => {
+                import.meta.env.VITE_REACT_APP_IS_PRODUCTION === 'Y' &&
+                  e.preventDefault()
+              }}
+              onPaste={(e) => {
+                import.meta.env.VITE_REACT_APP_IS_PRODUCTION === 'Y' &&
+                  e.preventDefault()
+              }}
+            />
+          )}
+          rules={{
+            required: handleRequired(),
+            pattern: getPattern(props),
+          }}
+        />
+
+        {errors?.[props?.field] && (
+          <FormFeedback
+            aria-errormessage={`error_${props.field}_required`}
+            style={{ height: 10 }}
+          >
+            <span>
+              {(errors[props.field]?.message as string) || 'Required'}
+            </span>
+          </FormFeedback>
+        )}
+      </div>
+    </>
+  )
+})
+
+export default MyTextArea

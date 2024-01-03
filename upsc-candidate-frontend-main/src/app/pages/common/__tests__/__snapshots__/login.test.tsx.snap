@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test cases for login page snapshot should match snapshot 1`] = `
+<div
+  class="sc-hKMtZM ePzAKj"
+>
+  <div
+    class="fixed-header bg-white"
+    style="height: 60px; position: relative;"
+  >
+    <div
+      class="fixed-header"
+    >
+      <div>
+        <div
+          aria-label="Site Header"
+          class="app-header header-shadow appear appear-active"
+          component="div"
+        >
+          <div
+            class="app-header__logo"
+          >
+            <div
+              class="sc-bczRLJ kxxrZ logoTxt"
+            >
+              <img
+                alt="Logo"
+                src="IMAGE_MOCK"
+              />
+              <h1
+                class="MuiTypography-root MuiTypography-h1 css-o2w69a-MuiTypography-root"
+              >
+                संघ लोक सेवा आयोग
+                <p>
+                  UNION PUBLIC SERVICE COMMISSION
+                </p>
+              </h1>
+            </div>
+          </div>
+          <div
+            class="app-header__mobile-menu"
+          >
+            <div
+              role="button"
+              tabindex="0"
+            >
+              <button
+                class="jsx-3928250682 BurgerSlider Burger"
+              >
+                <div
+                  class="jsx-3928250682 BurgerBox"
+                >
+                  <div
+                    class="jsx-3928250682 BurgerInner"
+                  />
+                </div>
+              </button>
+            </div>
+          </div>
+          <div
+            class="app-header__menu"
+          >
+            <span
+              role="button"
+              tabindex="0"
+            >
+              <button
+                class="btn-icon btn-icon-only btn btn-dark btn-sm"
+                type="button"
+              >
+                <div
+                  class="btn-icon-wrapper"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-ellipsis-v "
+                    data-icon="ellipsis-v"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    style="vertical-align: 0rem;"
+                    viewBox="0 0 192 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M96 184c39.8 0 72 32.2 72 72s-32.2 72-72 72-72-32.2-72-72 32.2-72 72-72zM24 80c0 39.8 32.2 72 72 72s72-32.2 72-72S135.8 8 96 8 24 40.2 24 80zm0 352c0 39.8 32.2 72 72 72s72-32.2 72-72-32.2-72-72-72-72 32.2-72 72z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </div>
+              </button>
+            </span>
+          </div>
+          <div
+            class="app-header__content"
+          >
+            <div
+              class="app-header-right"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="loginBox"
+  >
+    <div
+      class="loginSection card"
+    >
+      <div
+        class="card-body"
+      >
+        <div
+          class="loginLogo"
+        >
+          <div
+            class="logInLogoBox"
+          >
+            <img
+              alt="Logo"
+              aria-hidden="true"
+              class="img-fluid mx-auto d-block"
+              src="IMAGE_MOCK"
+            />
+          </div>
+          <div
+            class="loginNameBox"
+          >
+            <h1
+              class="MuiTypography-root MuiTypography-h1 css-o2w69a-MuiTypography-root"
+            >
+              संघ लोक सेवा आयोग
+              <span>
+                UNION PUBLIC SERVICE COMMISSION
+              </span>
+            </h1>
+          </div>
+        </div>
+        <div
+          class="divider"
+        />
+        <div
+          class="myform"
+        >
+          <div
+            class="sc-eCYdqJ eklDXt"
+          >
+            <form>
+              <div
+                class="row"
+              >
+                <div
+                  class="col-md-12"
+                >
+                  <div
+                    class="mb-3"
+                    data-testid="myForm"
+                  >
+                    <label
+                      class="my-label form-label"
+                      for="exampleEmail"
+                      tabindex="5"
+                    >
+                      Email
+                    </label>
+                    <input
+                      aria-describedby="email-error"
+                      aria-label="Email"
+                      aria-required="true"
+                      autocomplete="off"
+                      class="input-sm form-control"
+                      data-testid="email"
+                      id="email"
+                      name="email"
+                      placeholder="Email here..."
+                      tabindex="6"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="col-md-12"
+                >
+                  <div
+                    class="mb-3"
+                  >
+                    <label
+                      class="my-label form-label"
+                      for="examplePassword"
+                      tabindex="7"
+                    >
+                      Password
+                    </label>
+                    <input
+                      aria-describedby="password-error"
+                      aria-label="Password"
+                      aria-required="true"
+                      autocomplete="off"
+                      class="input-sm form-control"
+                      id="password"
+                      name="password"
+                      placeholder="Password here..."
+                      tabindex="7"
+                      type="password"
+                      value=""
+                    />
+                  </div>
+                </div>
+                <div
+                  class="col-md-12"
+                >
+                  <div
+                    class="mb-3"
+                  >
+                    <label
+                      class="my-label form-label"
+                      for="exampleCaptcha"
+                      tabindex="7"
+                    >
+                      Captcha
+                    </label>
+                    <div
+                      class="d-flex"
+                    >
+                      <div
+                        aria-label="captcha"
+                        class=""
+                        data-mui-internal-clone-element="true"
+                      />
+                      <button
+                        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+                        style="text-align: left;"
+                        tabindex="0"
+                        type="button"
+                      >
+                        <span
+                          class="material-symbols-outlined text-info"
+                        >
+                          <svg
+                            aria-label="refresh"
+                            data-mui-internal-clone-element="true"
+                            fill="currentColor"
+                            height="1em"
+                            stroke="currentColor"
+                            stroke-width="0"
+                            style="font-size: 30px; display: inline-block; margin-top: 10px; margin-bottom: 10px;"
+                            viewBox="0 0 512 512"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M256 388c-72.597 0-132-59.405-132-132 0-72.601 59.403-132 132-132 36.3 0 69.299 15.4 92.406 39.601L278 234h154V80l-51.698 51.702C348.406 99.798 304.406 80 256 80c-96.797 0-176 79.203-176 176s78.094 176 176 176c81.045 0 148.287-54.134 169.401-128H378.85c-18.745 49.561-67.138 84-122.85 84z"
+                            />
+                          </svg>
+                        </span>
+                        <span
+                          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                        />
+                      </button>
+                    </div>
+                    <input
+                      aria-describedby="captcha-error"
+                      aria-label="Captcha"
+                      aria-required="true"
+                      autocomplete="off"
+                      class="input-sm form-control"
+                      id="captcha"
+                      name="captcha"
+                      placeholder="Captcha here..."
+                      tabindex="7"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="divider"
+              />
+              <div
+                class="mb-4"
+              >
+                <button
+                  class="btn btn-info button-sm"
+                  style="float: right;"
+                  tabindex="8"
+                  type="submit"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall me-2 css-ptiqhd-MuiSvgIcon-root"
+                    data-testid="LoginOutlinedIcon"
+                    focusable="false"
+                    style="margin-top: -2px;"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M11 7 9.6 8.4l2.6 2.6H2v2h10.2l-2.6 2.6L11 17l5-5-5-5zm9 12h-8v2h8c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-8v2h8v14z"
+                    />
+                  </svg>
+                  Login
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

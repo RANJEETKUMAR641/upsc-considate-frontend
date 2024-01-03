@@ -1,0 +1,94 @@
+.list p {
+    margin: 0;
+    padding: 0px 10px;
+}
+
+.list li {
+    margin-bottom: 15px;
+}
+
+.header {
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #003;
+    border-bottom: 1px solid #29A9EA;
+}
+
+#divToPrint p {
+    margin: 0;
+    padding: 0px 10px;
+    text-align: justify;
+}
+
+.btnfooter {
+    padding: 5px 20px;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: #003
+}
+
+
+.btnborder {
+    border-top: 1px solid #29A9EA;
+    padding: 10px 0px;
+}
+
+.heading2 {
+    font-size: 11px;
+    line-height: 14px;
+    margin: 0;
+    padding: 0;
+}
+.divBorderColor {
+    border: 1px solid #29A9EA;
+}
+
+/* print styles */
+@media print {
+    .list p {
+        margin: 0;
+        padding: 0px 10px;
+    }
+
+    .list li {
+        margin-bottom: 15px;
+    }
+
+    .header {
+        font-size: 14px;
+        color: #FFFFFF;
+        background-color: #003
+    }
+
+    #divToPrint p {
+        margin: 0;
+        padding: 0px 10px;
+        text-align: justify;
+    }
+
+    .btnfooter {
+        padding: 5px 20px;
+        font-size: 14px;
+        color: #FFFFFF;
+        background-color: #003
+    }
+
+    .divBorderColor {
+        max-width: 500px;
+        border: 1px solid #29A9EA;
+    }
+
+    .btnborder {
+        border-top: 1px solid #29A9EA;
+        padding: 10px 0px;
+    }
+
+    .heading2 {
+        font-size: 11px;
+        line-height: 14px;
+        margin: 0;
+        padding: 0;
+    }
+
+
+}

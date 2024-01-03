@@ -1,0 +1,47 @@
+{
+  "module": "ora",
+  "menu": [
+    {
+      "icon": "fa fa-desktop",
+      "label": "Dashboard",
+      "to": "#"
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "label": "Post Creation",
+      "content": [
+        {
+          "label": "Notice",
+          "to": "/dashboards/postnotices",
+          "path": "create/"
+        },
+        {
+          "label": "Post Creation",
+          "to": "/dashboards/posts"
+        },
+        {
+          "label": "Post Description",
+          "to": "/dashboards/post_description"
+        },
+        {
+          "label": "Post Modules",
+          "to": "/dashboards/post_modules"
+        },
+        {
+          "label": "Post Modules Data",
+          "to": "/dashboards/post_modules_data"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-database",
+      "label": "Masters",
+      "content": [
+        {
+          "label": "Basic Masters",
+          "to": "/dashboards/masters_data"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+src/library/**
+*.ts
+*.js
+internals/*
+src/utils/__tests__/loadable.test.tsx
+src/app/pages/module/exam/**/**.css

@@ -1,0 +1,26 @@
+{
+  "module": "usadminom",
+  "menu": [
+    {
+      "icon": "fa fa-home",
+      "label": "Dashboard",
+      "to": "/dashboards/"
+    },
+    {
+      "icon": "fa fa-sign-in",
+      "label": "E Bill",
+      "content": [
+        {
+          "label": "Claims",
+          "to": "/dashboards/Claim",
+          "component": "Claim"
+        },
+        {
+          "label": "Bills",
+          "to": "/dashboards/Bill",
+          "component": "Bill"
+        }
+      ]
+    }
+  ]
+}

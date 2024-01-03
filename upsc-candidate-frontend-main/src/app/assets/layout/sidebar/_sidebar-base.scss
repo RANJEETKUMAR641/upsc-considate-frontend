@@ -1,0 +1,100 @@
+// Sidebar Base
+
+@use 'sass:math';
+
+.app-sidebar {
+  width: $app-sidebar-width;
+  display: flex;
+  z-index: 11;
+  overflow: hidden;
+  min-width: $app-sidebar-width;
+  position: relative;
+  flex: 0 0 $app-sidebar-width;
+  margin-top: -$app-header-height;
+  padding-top: $app-header-height;
+  transition: all 0.2s;
+
+  .app-sidebar__inner {
+    padding: 15px 0 $layout-spacer-x;
+  }
+
+  .scrollbar-container {
+    z-index: 15;
+    width: 100%;
+  }
+
+  .app-sidebar-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.05;
+    background-size: cover;
+    z-index: 10;
+  }
+
+  .app-header__logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    z-index: 11;
+  }
+
+  &.sidebar-shadow {
+    box-shadow: 7px 0 60px rgba(0, 0, 0, 0.05);
+  }
+}
+
+.app-sidebar__heading {
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  margin: math.div($layout-spacer-x, 2) $layout-spacer-x;
+  font-weight: bold;
+  color: rgba(18, 21, 78, 0.7);
+  white-space: nowrap;
+  position: relative;
+}
+
+.sidebar-mobile-overlay {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  z-index: 12;
+}
+
+.mui_menulist .first-icon {
+  font-size: 1.2rem;
+  min-width: 35px;
+}
+.mui_menulist .navText {
+  margin-bottom: 0;
+}
+.mui_menulist .navText span {
+  font-size: 0.8rem;
+}
+.mui_menulist .childMenu {
+  margin-left: 1rem;
+}
+.mui_menulist .childMenu .child {
+  margin-left: 1rem;
+}
+
+// Sidebar Components
+
+@import 'modifiers/navmenu-vertical';
+
+// Sidebar Modifiers
+
+@import 'themes/sidebar-light';
+@import 'themes/sidebar-dark';
+//@import "themes/sidebar-inverted";
+
+@import 'modifiers/fixed-sidebar';
+@import 'modifiers/closed-sidebar';

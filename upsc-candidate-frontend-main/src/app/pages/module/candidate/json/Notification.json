@@ -1,0 +1,29 @@
+{
+  "gender": {
+    "title": "Gender",
+    "status": "ok"
+  },
+  "vacancy": {
+    "title": "Vacancy",
+    "status": "ok"
+  },
+  "age": {
+    "title": "Age",
+    "status": "Your DOB: 27/01/1974 should be in between [28/01/1995] and [28/01/1984]",
+    "message": "Your DOB: 27/01/1974, Min Age:21 years Min Date:28/01/1995, Max Age:32 years Max Date: 28/01/1984 "
+  },
+  "fee_exempt": {
+    "title": "Fee Exempt",
+    "status": "No",
+    "message": "You have to pay Fee!"
+  },
+  "examAttempts": {
+    "title": "Exam Attempts",
+    "status": "ok",
+    "attempts": 0
+  },
+  "qualification": {
+    "title": "Qualifications",
+    "status": "ok"
+  }
+}

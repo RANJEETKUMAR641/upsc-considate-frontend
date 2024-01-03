@@ -1,0 +1,36 @@
+{
+  "module": "systemadmin",
+  "menu": [
+    {
+      "icon": "fa fa-home",
+      "label": "Dashboard",
+      "to": "/dashboards/"
+    },
+    {
+      "icon": "fa fa-sign-in",
+      "label": "E Bill",
+      "content": [
+        {
+          "label": "User",
+          "to": "/dashboards/User",
+          "component": "User"
+        },
+        {
+          "label": "Ex Chairmen And Members",
+          "to": "/dashboards/ExChairmenAndMembers",
+          "component": "ExChairmenAndMembers"
+        },
+        {
+          "label": "Claims",
+          "to": "/dashboards/Claim",
+          "component": "Claim"
+        },
+        {
+          "label": "Bills",
+          "to": "/dashboards/Bill",
+          "component": "Bill"
+        }
+      ]
+    }
+  ]
+}

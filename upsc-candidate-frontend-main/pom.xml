@@ -1,0 +1,5 @@
+<properties>
+  <sonar.projectKey>upsc_upsc-frontend_AYqK_-TqnMY8EdBl1Ko2</sonar.projectKey>
+  <sonar.projectName>upsc-frontend</sonar.projectName>
+  <sonar.qualitygate.wait>true</sonar.qualitygate.wait>
+</properties>

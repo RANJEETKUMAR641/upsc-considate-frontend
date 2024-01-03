@@ -1,0 +1,242 @@
+{
+  "module": "vms",
+  "menu": [
+    {
+      "icon": "fa fa-home",
+      "label": "Dashboard",
+      "to": "/dashboards/"
+    },
+    {
+      "icon": "fa fa-sign-in",
+      "label": "Exams",
+      "content": [
+        {
+          "label": "Create Exam",
+          "to": "/dashboards/create-exam",
+          "component": "addexam"
+        },
+        {
+          "label": "subject selection for exam ",
+          "to": "/dashboards/subjectselection",
+          "component": "subjectselection"
+        },
+        {
+          "label": "Optonal Subject Entry",
+          "to": "/dashboards/optionalsubject",
+          "component": "optionalsubject"
+        },
+        {
+          "label": "Manage Postal Authority",
+          "to": "/dashboards/postalauthority",
+          "component": "postalauthority"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-address-card",
+      "label": "Co-ordinator",
+      "content": [
+        {
+          "label": "Co-ordinator Details",
+          "to": "/dashboards/coordinator-details",
+          "component": "coordinatordetails"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-gears",
+      "label": "Venue Supervisor",
+      "content": [
+        {
+          "label": "create venue supervisor",
+          "to": "/dashboards/venue-supervior",
+          "component": "venusupervisor"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-database",
+      "label": "Manage Vanue",
+      "content": [
+        {
+          "label": "create venue",
+          "to": "/dashboards/create-vanue",
+          "component": "createvanue"
+        },
+        {
+          "label": "Detail Entry of Venue for 79",
+          "to": "/dashboards/entryofvanue",
+          "component": "entryofvanue"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-gears",
+      "label": "Manage Invigilator",
+      "content": [
+        {
+          "label": "Create Service Invigilator",
+          "to": "/dashboards/create-Service-invigilator",
+          "component": "createinvigilator"
+        },
+        {
+          "label": "Retired Inivigilator",
+          "to": "/dashboards/retired_inivigilator",
+          "component": "retiredinivigilator"
+        },
+        {
+          "label": "Add New Area",
+          "to": "/dashboards/add-area",
+          "component": "addnewarea"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-address-card",
+      "label": "Inspecting Officer",
+      "content": [
+        {
+          "label": "Manage io/Delivery Team",
+          "to": "/dashboards/deliveryteam",
+          "component": "deliveryteam"
+        },
+        {
+          "label": "Inspecting Offiecres Duty",
+          "to": "/dashboards/inspectingone",
+          "component": "inspectingone"
+        },
+        {
+          "label": "Inspecting Offiecres Duty (Non Delhi)",
+          "to": "/dashboards/inspectingtwo",
+          "component": "inspectingtwo"
+        },
+        {
+          "label": "Inspecting Offiecres team Duty",
+          "to": "/dashboards/inspectingteam",
+          "component": "inspectingteam"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-database",
+      "label": "Jammers",
+      "content": [
+        {
+          "label": "Manage Gammers Info",
+          "to": "/dashboards/jammersinfo",
+          "component": "jammersinfo"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-sign-in",
+      "label": "MIS",
+      "content": [
+        {
+          "label": "MIS",
+          "to": "/dashboards/vms",
+          "component": "vms"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-sign-in",
+      "label": "Master"
+    },
+    {
+      "icon": "fa fa-sign-in",
+      "label": "Admin"
+    },
+    {
+      "icon": "fa fa-sign-in",
+      "label": "Ministry",
+      "content": [
+        {
+          "label": "Ministry Management",
+          "to": "/dashboards/minstrymanagement",
+          "component": "minstrymanagement"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-sign-in",
+      "label": "Upload and Manage PDF",
+      "content": [
+        {
+          "label": "Upload PDF",
+          "to": "/dashboards/uploadpdf",
+          "component": "uploadpdf"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-sign-in",
+      "label": "Manage Account",
+      "content": [
+        {
+          "label": "Common Updation of Bill No (Co-ordinating Superviser)",
+          "to": "/dashboards/commonupdation",
+          "component": "commonupdation"
+        },
+        {
+          "label": "Printing Of Advance Sanction",
+          "to": "/dashboards/advancesanction",
+          "component": "advancesanction"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-sign-in",
+      "label": "DAF 1",
+      "content": [
+        {
+          "label": "personal information",
+          "to": "/dashboards/personal",
+          "component": "personal"
+        },
+        {
+          "label": "parental information",
+          "to": "/dashboards/parental",
+          "component": "parental"
+        },
+        {
+          "label": "employment information",
+          "to": "/dashboards/employment",
+          "component": "employment"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-sign-in",
+      "label": "Administrative Utilities",
+      "content": [
+        {
+          "label": "Details Entry of Venue Supervisor",
+          "to": "/dashboards/detailsentry",
+          "component": "detailsentry"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-sign-in",
+      "label": "DAF 2",
+      "content": [
+        {
+          "label": "personal information Daf 2",
+          "to": "/dashboards/secondDaf",
+          "component": "secondDaf"
+        },
+        {
+          "label": "parental information Daf 2",
+          "to": "/dashboards/secondParental",
+          "component": "secondParental"
+        },
+        {
+          "label": "servicePreference",
+          "to": "/dashboards/servicePreference",
+          "component": "servicePreference"
+        }
+      ]
+    }
+  ]
+}

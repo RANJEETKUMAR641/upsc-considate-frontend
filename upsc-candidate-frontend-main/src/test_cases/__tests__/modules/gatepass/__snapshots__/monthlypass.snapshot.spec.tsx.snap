@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Cases for Monthly GatePass Module | Component should render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-evZas btyqPz"
+      >
+        <div
+          style="position: relative;"
+        >
+          <div
+            id="monthlypass_form"
+          >
+            <div>
+              <div
+                class="main-card card"
+                style="border: 0.1px solid #dee2e6;"
+              >
+                <div
+                  class="sc-kDDrLX ejHkpa card-header"
+                  style="display: block;"
+                >
+                  <div
+                    class="headerbgOverlay"
+                  >
+                    <span
+                      class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse w-75 css-1n7gpw1-MuiSkeleton-root"
+                      style="height: 30px;"
+                    />
+                    <div
+                      class="headingIcon"
+                    />
+                  </div>
+                </div>
+                <div
+                  aria-hidden="false"
+                  class="ReactCollapse--collapse"
+                  style="height: auto; overflow: initial;"
+                >
+                  <div
+                    class="ReactCollapse--content"
+                  >
+                    <div
+                      class="p-0 mb-0  p-0 card-body"
+                    >
+                      <div>
+                        <form>
+                          <div
+                            class="sc-jqUVSM glrpSr"
+                          >
+                            <div
+                              class="me-0 ms-0 row"
+                            />
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-evZas btyqPz"
+    >
+      <div
+        style="position: relative;"
+      >
+        <div
+          id="monthlypass_form"
+        >
+          <div>
+            <div
+              class="main-card card"
+              style="border: 0.1px solid #dee2e6;"
+            >
+              <div
+                class="sc-kDDrLX ejHkpa card-header"
+                style="display: block;"
+              >
+                <div
+                  class="headerbgOverlay"
+                >
+                  <span
+                    class="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse w-75 css-1n7gpw1-MuiSkeleton-root"
+                    style="height: 30px;"
+                  />
+                  <div
+                    class="headingIcon"
+                  />
+                </div>
+              </div>
+              <div
+                aria-hidden="false"
+                class="ReactCollapse--collapse"
+                style="height: auto; overflow: initial;"
+              >
+                <div
+                  class="ReactCollapse--content"
+                >
+                  <div
+                    class="p-0 mb-0  p-0 card-body"
+                  >
+                    <div>
+                      <form>
+                        <div
+                          class="sc-jqUVSM glrpSr"
+                        >
+                          <div
+                            class="me-0 ms-0 row"
+                          />
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
